@@ -1,0 +1,35 @@
+#navbar {
+    background-color: #ccc;
+}
+
+#navbar:hover {
+    color: blue
+}
+#navbar a.active{
+    color: red
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+  
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+  
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+
+#inicio {
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
