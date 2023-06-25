@@ -11,7 +11,7 @@
 <body>
 
 <!-- MENU FIXO -->
-<nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+<nav class="navbar navbar-expand-md fixed-top" id="navbar">
     <div class="container">
         <a href="#" class="navbar-brand"><span>LOGO</span></a>
         <button
@@ -47,58 +47,84 @@
     </div>
 </nav>
 
-
 <!-- INICIO -->
 <div class="container-fluid bg-light" id="inicio">
-    <div class="container">
-        <div class="row">
-            <div class="col-8 border">
-                <h1>Especialista em Licitações e Contratos, Agentes Públicos e Previdência (RPPS)</h1>
-                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="col-4 text-center">
-                <img src="{{ asset('img/logo.png') }}" width="250px" alt="">
-            </div>
+    <div class="container row mx-auto">
+        <div class="col-8 border">
+            <h1>Especialista em Licitações e Contratos, Agentes Públicos e Previdência (RPPS)</h1>
+            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-4 text-center">
+            <img src="{{ asset('img/logo.png') }}" width="250px" alt="">
         </div>
     </div>
 </div>
 
 <!-- PROFISSIONAL -->
-<div class="container-fluid bg-primary" id="profissional">
-    <div class="container bg-primary">
+<div class="container-fluid bg-white" id="profissional">
+    <div class="container row mx-auto">
         <h2>Profissional</h2>
-        <div class="row">
-            <div class="col">
-                <img src="{{ asset('img/mirian.png') }}" width="300px" />
-            </div>
-            <div class="col">
-                <ul>
-                    <li>Graduado em Direito pelo Centro Universitário Vale do Iguaçu em 2015</li>
-                    <li>Pós Graduado em Direito Processual Penal, pela Damásio Educacional</li>
-                    <li>Especialista em Direito Processual Penal Constitucional</li>
-                    <li>Membro do: Instituto Dalledone, Confraria Criminal e Mindjus Criminal</li>
-                </ul>
-            </div>
+        <div class="col border">
+            <img src="{{ asset('img/mirian.png') }}" width="400px" class="rounded " />
+        </div>
+        <div class="col border">
+            <ul>
+                <li>Graduado em Direito pelo Centro Universitário Vale do Iguaçu em 2015</li>
+                <li>Pós Graduado em Direito Processual Penal, pela Damásio Educacional</li>
+                <li>Especialista em Direito Processual Penal Constitucional</li>
+                <li>Membro do: Instituto Dalledone, Confraria Criminal e Mindjus Criminal</li>
+            </ul>
         </div>
     </div>
 </div>
 
 <!-- AREAS DE ATUACAO -->
 <div class="container-fluid bg-grey1" id="areas">
-    <div class="container">
-        <div class="row">
-            <div class="col">
+    <div class="container row mx-auto">
 
-                <h2>Áreas de Atuação</h2>
+        <h2 class="bg-secondary">Áreas de Atuação</h2>
 
-                <div class="row gap-5">
-                    <div class="col d-flex flex-column p-4 bg-light shadow-sm rounded-2">
-                        <h3>Licitações e Contratos</h3>
-                        <div class="flex-grow-1 mb-4">
-                            Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </div>
-                        <button type="button" class="btn1 py-2 rounded">Saiba mais</button>
-                    </div>
+        <div class="col-12 col-md-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title">Licitações e Contratos</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary w-100">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title">Agentes Públicos</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary w-100">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title">Previdência (RPPS)</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary w-100">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--
+            <div class="col d-flex flex-column p-4 bg-light shadow-sm rounded-2">
+                <h3>Licitações e Contratos</h3>
+                <div class="flex-grow-1 mb-4">
+                    Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <button type="button" class="btn1 py-2 rounded">Saiba mais</button>
+            </div>
+
                     <div class="col d-flex flex-column p-4 bg-light shadow-sm rounded-2">
                         <h3>Agentes Públicos</h3>
                         <div class="flex-grow-1 mb-4">
@@ -116,8 +142,7 @@
                 </div>
 
             </div>
-        </div>
-    </div>
+    </div-->
 </div>
 
 <!-- DESTAQUES -->

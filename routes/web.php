@@ -15,8 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    //return view('site');
-    return view('flyer');
+    return view('site');
 });
 
 Route::get('/welcome', function () {
